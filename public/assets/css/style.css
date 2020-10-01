@@ -1,34 +1,49 @@
-body{
-  background-color: rgb(238, 166, 32);
-}
 li {
-  padding: 5px;
+  padding-top: 20px;
+  
   margin: 5px;
-  background: #faebd7;
 }
 
 .label {
+  padding-top: 20px;
   font-weight: bold;
 }
 
 .create-update-form {
-  padding: 500px;
-  margin: 500px;
+  padding-left: 500px;
+  margin: 5px;
   background: aqua;
 }
 
 .form-group {
   margin-bottom: 5px;
 }
-.burgerimg {
-  padding-left: 650px;
+div.container-fluid{
+  padding-left:0px;
+  padding-right:0px;
+  background-color:rgb(235, 178, 55);
 }
-h1{
-  padding-left: 730px;
+html {
+  background-color: rgb(235, 178, 55);
+} 
+h1 {
+  padding-top: 30px;
+  color: rgb(146, 13, 13);
+  padding-left: 400px;
 }
-h2{
-  padding-left: 730px;
+img{
+  padding-top: 40px;
+  padding-left: 400px;
+}
+button{
+  border: none;
+  font: lighter;
 }
 .create-form{
-  padding-left: 680px;
+  padding-left: 450px;
+  padding-top: 100px;
+}
+p{
+  padding-left: 340px;
+  padding-top: 5px;
 }

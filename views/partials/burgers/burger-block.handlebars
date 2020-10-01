@@ -1,6 +1,8 @@
-<div class="row">
-	<li "col-3">
-		{{name}}
-		<button class="delete-burger" data-id="{{this.id}}">Devour it!</button>
-	</li>
-</div>
+<li>
+	{{name}}
+	{{#if eat}}
+		<button type="button" class="change-eat btn btn-secondary btn-sm" data-id="{{id}}" data-neweat="{{eat}}">Devour It!</button>
+	{{else}}
+	{{/if}}
+</li>
+
